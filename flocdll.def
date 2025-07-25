@@ -1,0 +1,22 @@
+LIBRARY		FLOC
+EXPORTS
+	FLOCDLL_Initialize
+	FLOCDLL_Uninitialize
+	FLOCDLL_TargetSet
+	FLOCDLL_DebugLoopStart
+	FLOCDLL_DebugLoopStop
+	FLOCDLL_DebugLoopOverride
+	FLOCDLL_CallExceptionBreakpointHandler
+	FLOCDLL_TrackerAddBreakpoint
+	FLOCDLL_TrackerAddHook
+	FLOCDLL_TrackerRemove
+	FLOCDLL_TrackerEnable
+	FLOCDLL_TrackerDisable
+	FLOCDLL_TrackerAllGet
+	FLOCDLL_TrackerAllReset
+	FLOCDLL_TrackerAllEnable
+	FLOCDLL_TrackerAllDisable
+	FLOCDLL_StepBegin
+	FLOCDLL_StepEnd
+	FLOCDLL_StepFilterOutExecuted
+	FLOCDLL_StepFilterOutNotExecuted
